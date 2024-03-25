@@ -16,14 +16,51 @@ section {
 }
 
 .experience {
+    width: 84%;
     background-color: #40414A;
+
+    display: flex;
+    flex-direction: row;
 
     border-radius: 12px;
 
     padding: 10px;
 }
 
+.experience-describe {
+    display: block;
+    width: 70%;
+    background-color: #A0A0A0;
+}
+
+.experience-buttons {
+    width: 22%;
+    display: block;
+    flex-direction: column;
+    align-items: self-start;
+
+    padding-right: 1%;
+
+    border-right: 2px solid #A0A0A0;
+}
+
 .btn-exp {
     background: none;
     color: #E9E9E9;
+    /* border: 1px solid #E9E9E9; */
+
+    width: 98%;
+    text-align: start;
+
+    font-size: 0.8rem;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.exp-btn-time {
+    font-weight: 200;
+    font-style: italic;
 }

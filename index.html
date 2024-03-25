@@ -14,15 +14,22 @@
     <section>
         <h1>Minha Jornada</h1>
 
-        <div class="experience" style="display: block; width: 100%;">
-            <p class="d-inline-flex gap-1">
-                <a class="btn btn-exp" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Link with href
-                </a>
-                <button class="btn btn-exp" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                    Button with data-bs-target
-                </button>
-            </p>
+        <div class="experience">
+            <div class="experience-buttons">
+                <div class="btn btn-exp" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <p class="exp-btn-title">Escola Conquer</p>
+                    <p class="exp-btn-subtitle">Jul de 2022 - atual</p>
+                    <p class="exp-btn-time">1 ano e 9 meses</p>
+                </div>
+                <div class="btn btn-exp" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                    <p class="exp-btn-title">Valemobi</p>
+                    <p class="exp-btn-subtitle">Jan - Jun de 2022</p>
+                    <p class="exp-btn-time">5 meses</p>
+                </div>
+            </div>
+            <div class="experience-describe">
+                <p>texto</p>
+            </div>
             <div class="collapse" id="collapseExample">
                 <div class="card card-body">
                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
