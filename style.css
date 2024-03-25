@@ -9,7 +9,6 @@ section {
 
     width: 80%;
     max-width: 1800px;
-    border: 1px solid black;
 
     margin: auto;
     padding: 28px 0px;
@@ -28,11 +27,32 @@ section {
 }
 
 .experience-describe {
+    color: #E9E9E9;
     display: block;
     width: 70%;
-    background-color: #A0A0A0;
 }
 
+.experience-describe-header {
+    width: 91%;
+    height: 90px;
+    padding: 1%;
+    margin-left: 8%;
+}
+
+.experience-describe-text {
+    width: 90%;
+    margin: auto;
+}
+
+.experience-describe-header h3 {
+        font-size: 1.2rem;
+        padding: 0;
+        margin: 0;
+}
+
+.experience-describe-header h5 {
+    font-size: 1rem;
+}
 .experience-buttons {
     width: 22%;
     display: block;
@@ -63,4 +83,14 @@ section {
 .exp-btn-time {
     font-weight: 200;
     font-style: italic;
+}
+
+.exp-card-text {
+    background: none;
+
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    border: none;
 }
