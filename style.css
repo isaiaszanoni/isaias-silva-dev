@@ -1,0 +1,29 @@
+h1 {
+    color: #48C295;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 80%;
+    max-width: 1800px;
+    border: 1px solid black;
+
+    margin: auto;
+    padding: 28px 0px;
+}
+
+.experience {
+    background-color: #40414A;
+
+    border-radius: 12px;
+
+    padding: 10px;
+}
+
+.btn-exp {
+    background: none;
+    color: #E9E9E9;
+}
